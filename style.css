@@ -65,47 +65,118 @@ h1 {
   position: absolute;
   background-color: black;
   border: 2px black;
-  /* left: 34px; */
 }
 .black-key:nth-child(1) {
-  left: 48px;
+  left: 5%;
 }
 .black-key:nth-child(2) {
-  left: 117px;
+  left: 12.5%;
 }
 .black-key:nth-child(3) {
-  left: 253px;
+  left: 26.5%;
 }
 .black-key:nth-child(4) {
-  left: 320px;
+  left: 33.5%;
 }
 .black-key:nth-child(5) {
-  left: 389px;
+  left: 41%;
 }
 .black-key:nth-child(6) {
-  left: 525px;
+  left: 55%;
 }
 .black-key:nth-child(7) {
-  left: 594px;
+  left: 62.5%;
 }
 .black-key:nth-child(8) {
-  left: 729px;
+  left: 76.5%;
 }
 .black-key:nth-child(9) {
-  left: 797px;
+  left: 83.5%;
 }
 .black-key:nth-child(10) {
-  left: 865px;
+  left: 91%;
 }
+/* @media screen and (max-width: 1496px) {
+  .black-key:nth-child(10) {
+    left: 91%;
+  }
+  .black-key:nth-child(9) {
+    left: 84%;
+  }
+  .black-key:nth-child(8) {
+    left: 76.5%;
+  }
+  .black-key:nth-child(7) {
+    left: 62.5%;
+  }
+  .black-key:nth-child(6) {
+    left: 55%;
+  }
+  .black-key:nth-child(3) {
+    left: 26.5%;
+  }
+  .black-key:nth-child(5) {
+    left: 41%;
+  }
+} */
 
-/* @media screen and (max-width: 1000) {
+@media screen and (max-width: 1380px) {
+  #piano {
+    width: 70%;
+  }
+  /* .black-key:nth-child(10) {
+    left: 88.5%;
+  } */
+}
+@media screen and (max-width: 1150px) {
   .black-key {
-    height: auto;
-    width: 20px;
+    width: 4%;
+  }
+  .black-key:nth-child(1) {
+    left: 5%;
+  }
+  .black-key:nth-child(2) {
+    left: 12.5%;
+  }
+  .black-key:nth-child(3) {
+    left: 26.5%;
+  }
+  .black-key:nth-child(4) {
+    left: 33.5%;
+  }
+  .black-key:nth-child(5) {
+    left: 41%;
+  }
+  .black-key:nth-child(6) {
+    left: 55%;
+  }
+  .black-key:nth-child(7) {
+    left: 62.5%;
+  }
+  .black-key:nth-child(8) {
+    left: 76.5%;
+  }
+  .black-key:nth-child(9) {
+    left: 83.5%;
+  }
+  .black-key:nth-child(10) {
+    left: 91%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #piano {
+    width: 80%;
+  }
+  .black-key:nth-child(2) {
+    left: 12%;
+  }
+  .keys {
+    height: 30%;
+  }
+  .black-key {
+    height: 130px;
   }
   .white-key {
-    width: 40px;
-    height: auto;
+    height: 220px;
   }
-  /* height: 280px; 
-} */
+}
